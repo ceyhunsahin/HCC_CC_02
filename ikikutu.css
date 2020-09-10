@@ -1,0 +1,98 @@
+/* body {
+    font-size: 30px;
+}
+
+.dib div {
+    display: inline-block;
+    background-color: red;
+}
+dib2 {
+    font-size: 0px;
+}
+.dib2 div {
+    display: inline-block;
+    background-color: red;
+    font-size: 1rem;
+}
+.float {
+    background:yellow;
+}
+
+.float div {
+    float: left;
+    background: blue;
+} */
+
+* {
+    margin:0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    align-content: center;
+    margin: auto;
+}
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    height: 260px;
+    
+}
+
+.a {
+    width: 24%;
+    height: 320px;
+    background-color: blue;
+    color: white; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+    
+
+.sidebar {
+    height: 575px;
+}
+.content {
+    align-items: flex-end;
+    width: 74.7%;
+    height: 240px;
+    margin-top: 90px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.footer {
+    width: 100%;
+    height: 140px;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
